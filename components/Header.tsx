@@ -12,10 +12,12 @@ function Header() {
 
       <div className="container flex flex-wrap items-center justify-between mx-auto">
 
-        <Link href="/" className="mx-auto block font-semibold dark:text-white">Open Blog </Link>
-
-
-        <ul className="mx-auto flex flex-wrap p-4 md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+      <div className="flex items-center">
+        <img src="/images/logo.jpg" alt="Logo" className="h-16 w-16 mr-2" />
+        <Link href="/" className="block font-semibold text-xl dark:text-white">Derin Öğrenme</Link>
+      </div>
+        
+        <ul className="ml-auto flex flex-wrap p-4 md:space-x-6 md:mt-0 md:text-sm md:font-medium">
 
 
           <li className="block py-2 pl-3 pr-4 text-gray-700 hover:text-blue-700 dark:hover:text-blue-700 rounded md:p-0 dark:text-white" aria-current="page">
